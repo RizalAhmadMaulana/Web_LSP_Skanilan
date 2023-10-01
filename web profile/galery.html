@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LSP Skanilan | Home</title>
+    <!--Logo Title-->
+    <link rel="icon" type="image/x-icon" href="../gambar/logo lsp.jpg" />
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../template/plugins/fontawesome-free/css/all.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../template/dist/css/adminlte.min.css" />
+  </head>
+  <style>
+    #picture {
+      background-color: #458afa;
+      color: white;
+    }
+
+    .card {
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+      transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    }
+  </style>
+  <body class="hold-transition layout-top-nav">
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+        <div class="container">
+          <a href="home.html" class="navbar-brand">
+            <img src="../gambar/logo lsp.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: 0.8" />
+            <span class="brand-text font-weight-light">LSP SMKN 9 Semarang</span>
+          </a>
+
+          <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="home.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="visimisi.html" class="nav-link">Visi & Misi</a>
+              </li>
+              <li class="nav-item active">
+                <a href="galery.html" class="nav-link">Galery</a>
+              </li>
+              <li class="nav-item">
+                <a href="kontak.html" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Login</a>
+                <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+                  <li><a href="../web administrator/login.php" class="dropdown-item">Login Administrator </a></li>
+                  <li><a href="../web peserta/login.php" class="dropdown-item">Login Peserta</a></li>
+
+                  <li class="dropdown-divider"></li>
+                  <!-- End Level two -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right navbar links -->
+          <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+            <!-- Notifications Dropdown Menu -->
+            <li class="nav-item">
+              <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                <i class="fas fa-expand-arrows-alt"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /.navbar -->
+
+      <!-- Galery -->
+      <section id="picture">
+        <div class="container">
+          <div class="row text-center mb-4">
+            <div class="col">
+              <h2>Galeri</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <a href="https://www.instagram.com/p/CYqajkuPInk/">
+                  <img src="../gambar/logo lsp.jpg" class="card-img-top" alt="Project1" style="border-radius: 10px" />
+                </a>
+                <div class="card-body">
+                  <h3 style="color: black">Lembaga Sertifikasi Profesi</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <a href="https://www.instagram.com/p/Cb2DRzZp2PF/">
+                  <img src="../gambar/galeri_2.jpg" class="card-img-top" alt="Project2" style="border-radius: 10px" />
+                </a>
+                <div class="card-body">
+                  <h3 style="color: black">Skema Uji Sertifikasi</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <a href="https://www.instagram.com/p/CaYjzkPvMPJ/">
+                  <img src="../gambar/galeri_3.jpg" class="card-img-top" alt="Project3" style="border-radius: 10px" />
+                </a>
+                <div class="card-body">
+                  <h3 style="color: black">Workspace</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,160L48,144C96,128,192,96,288,90.7C384,85,480,107,576,133.3C672,160,768,192,864,181.3C960,171,1056,117,1152,106.7C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- /.Galery -->
+
+      <!-- Content Wrapper. Contains page content --><br /><br /><br /><br /><br /><br />
+      <!-- /.content-wrapper -->
+
+      <!-- Control Sidebar -->
+      <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+      </aside>
+      <!-- /.control-sidebar -->
+
+      <!-- Main Footer -->
+      <footer class="main-footer">
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2022</strong> <strong style="color: blue">Nicholas Ernesto A.A.</strong> All rights reserved.
+      </footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="../template/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../template/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../template/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../template/dist/js/demo.js"></script>
+  </body>
+</html>
